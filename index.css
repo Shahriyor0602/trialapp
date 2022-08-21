@@ -1,168 +1,132 @@
-section{
-  display: flex;
-  text-align: center; 
-  width: 1440px;
-  height: 807px;
-  display: block;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+
+
+/*  ========  section  ======= */
+
+
+section .app_1 {
+  width: 820px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-section .katta .bir h3{
+section .img_1{
+  width: 100%;
+ 
+}
+section .img_1 img {
+  margin: auto;
+  width: 548px;
+  height: 660px;
+  margin-bottom: 128px;
+}
+
+section .img_2 h1 {
+  margin: auto;
+  text-align: center;
+  margin-top: 72px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  /* identical to box height, or 82% */
+
+  letter-spacing: 0.1px;
+
+  color: #000000;
+
+  opacity: 0.8;
+}
+
+
+
+section .box_1 {
+  display: flex;
+  width: 500px;
+  text-align: center;
+  padding-top: 78px;
+}
+
+section .box_2{
+  margin-top: 192px;
+}
+section .box_2 h4 {
+  text-align: left;
   font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height, or 150% */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
 
-letter-spacing: 0.1px;
+  letter-spacing: 0.1px;
 
-color: #FA4A0C;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-top: 238px;
-} 
-
-section .katta .bir h1{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 57px;
-/* or 142% */
-
-letter-spacing: 0.2px;
-
-/* text */
-
-color: #252B42;
+  color: #FA4A0C;
 
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-section .katta .bir h4{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 38px;
-/* or 158% */
-
-letter-spacing: 0.2px;
-
-/* second text */
-
-color: #737373;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-
-section .katta .bir img{
-  background: url(image.png);
-filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
-padding-top: 78px;
-}
-
-section .kichik .ikki img{
-  background: url(image.png);
-  filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
-   margin-top: -150px;
-}
-
-section .katta .bir h3{
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.1px;
-
-  color: #fa0c0c;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-top: 50pxpx; 
-} 
-
-section .katta .bir h1{
+section .box_2 h1 {
+  margin-top: 17px;
+  margin-bottom: 27px;
+  text-align: left;
+  width: 500px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 57px;
   /* or 142% */
-  
+
   letter-spacing: 0.2px;
-  
+
   /* text */
-  
+
   color: #252B42;
-  
-  
+
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-section .katta .bir h4{
+section .box_2 h3{
+  text-align: left;
+  width: 500px;
   font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 38px;
-/* or 158% */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  /* or 158% */
 
-letter-spacing: 0.2px;
+  letter-spacing: 0.2px;
 
-/* second text */
+  /* second text */
 
-color: #737373;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+  color: #737373;
 
 
+  /* Inside auto layout */
 
-.katta{
-  display: flex;
-}
-
-.kichik{
-  display: flex;
-}
-section{
-  display: flex;
-  flex-direction: column;
-}
-
-.kichik .bir{
- padding-bottom: 150px;
+  flex: none;
+  /* order: 0;
+  flex-grow: 0; */
 }
